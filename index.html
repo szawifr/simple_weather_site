@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weather Site</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <header>
+        <h1>Weather Site</h1>
+    </header>
+
+    <main>
+        <section id="current-weather">
+            <h2>Current Weather</h2>
+            <input type="text" id="search-bar" placeholder="City">
+            <div id="weather-info">
+                <h3>City Name</h3>
+                <p>Temperature: 25°C</p>
+                <p>Humidity: 70%</p>
+                <p>Wind Speed: 10 km/h</p>
+            </div>
+        </section>
+    </main>
+
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        main {
+            flex: 1;
+        }
+    </style>
+        <p id="copy">&copy; 2024, Franciszek Szawiejko</p>
+    </footer>
+</body>
+</html>
