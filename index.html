@@ -1,42 +1,40 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <title>Weather Site</title>
-    <link rel="stylesheet" href="styles.css">
-    
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <header>
-        <h1>Weather Site</h1>
+      <h1>Weather Site</h1>
     </header>
 
     <main>
-        <section id="current-weather">
-            <h2>Current Weather</h2>
-            <input type="text" id="search-bar" placeholder="City">
-            <div id="weather-info">
-                <h3>Warsaw</h3>
-                <p>Temperature: 25°C</p>
-                <p>Humidity: 70%</p>
-                <p>Wind Speed: 10 km/h</p>
-                <p>Visibility: 10km</p>
-            </div>
-        </section>
+      <section id="current-weather">
+        <input type="text" id="search-bar" placeholder="City" />
+        <div id="weather-info">
+          <h3>Warsaw</h3>
+          <p>Temperature: 25°C</p>
+          <p>Humidity: 70%</p>
+          <p>Wind Speed: 10 km/h</p>
+          <p>Visibility: 10 km</p>
+        </div>
+      </section>
     </main>
 
     <style>
-        body {
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
-        }
+      body {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+      }
 
-        main {
-            flex: 1;
-        }
+      main {
+        flex: 1;
+      }
     </style>
     <footer>
-        <p id="copy">&copy; 2024, Franek Sz</p>
+      <p id="copy">&copy; 2024, Franek Sz</p>
     </footer>
-</body>
+  </body>
 </html>
