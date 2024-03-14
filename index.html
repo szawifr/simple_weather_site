@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Weather Site</title>
+    <title>Simple Weather Site</title>
     <link rel="stylesheet" href="styles.css" />
     <link
       rel="stylesheet"
@@ -11,7 +11,7 @@
   <body>
     <header>
       <div id="weather-site-header">
-        <h1 id="weathersite">Weather Site</h1>
+        <h1 id="weathersite">Simple Weather Site</h1>
       </div>
       <div id="search-bar-div">
         <input type="text" id="search-bar" placeholder="City" />
@@ -24,26 +24,31 @@
     </header>
     <main>
       <section id="current-weather">
-        <h3>Warsaw</h3>
-        <p class="weather-icon">
+        <h2 id="city-name">Warsaw</h2>
+        <p class="dataline">
           <span class="material-symbols-outlined"> device_thermostat </span>
-          Temperature: 25°C
+          Temperature:
+          <i class="data">25°C</i>
         </p>
-        <p class="weather-icon">
+        <p class="dataline">
           <span class="material-symbols-outlined"> swap_vert </span>
-          Hi + Lo: 5°C/ 30°C
+          Hi + Lo:
+          <i class="data">5°C / 30°C</i>
         </p>
-        <p class="weather-icon">
+        <p class="dataline">
           <span class="material-symbols-outlined"> water_drop </span>
-          Precitipation: 70%
+          Precitipation:
+          <i class="data">70%</i>
         </p>
-        <p class="weather-icon">
+        <p class="dataline">
           <span class="material-symbols-outlined"> airwave </span>
-          Wind Speed: 10km/h
+          Wind Speed:
+          <i class="data">10km/h</i>
         </p>
-        <p class="weather-icon">
+        <p class="dataline">
           <span class="material-symbols-outlined"> visibility </span>
-          Visibility: 10 km
+          Visibility:
+          <i class="data">10 km</i>
         </p>
       </section>
     </main>
