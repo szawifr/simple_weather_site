@@ -119,6 +119,10 @@ footer {
   line-height: 2em;
 }
 
+.weather-icon span {
+  vertical-align: middle !important;
+}
+
 #copy {
   font-family: "Rubik", sans-serif;
   font-size: 0.8rem;
