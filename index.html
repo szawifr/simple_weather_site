@@ -3,19 +3,30 @@
   <head>
     <title>Weather Site</title>
     <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
   </head>
   <body>
     <header>
-      <h1 id="weathersite">Weather Site</h1>
-      <input type="text" id="search-bar" placeholder="City" />
+      <div id="weather-site-header">
+        <h1 id="weathersite">Weather Site</h1>
+      </div>
+      <div id="search-bar-div">
+        <input type="text" id="search-bar" placeholder="City" />
+      </div>
+      <div id="search-button-div">
+        <button type="submit" name="submit" id="search-button">
+          <span class="material-symbols-outlined">travel_explore</span>
+        </button>
+      </div>
     </header>
-    <div id="divider">
-      <br />
-    </div>
     <main>
       <section id="current-weather">
         <h3>Warsaw</h3>
         <p>Temperature: 25°C</p>
+        <p>Hi + Lo: 5°C / 30°C</p>
         <p>Humidity: 70%</p>
         <p>Wind Speed: 10 km/h</p>
         <p>Visibility: 10 km</p>
