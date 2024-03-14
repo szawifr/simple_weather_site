@@ -6,33 +6,21 @@
   </head>
   <body>
     <header>
-      <h1>Weather Site</h1>
+      <h1 id="weathersite">Weather Site</h1>
+      <input type="text" id="search-bar" placeholder="City" />
     </header>
-
+    <div id="divider">
+      <br />
+    </div>
     <main>
       <section id="current-weather">
-        <input type="text" id="search-bar" placeholder="City" />
-        <div id="weather-info">
-          <h3>Warsaw</h3>
-          <p>Temperature: 25°C</p>
-          <p>Humidity: 70%</p>
-          <p>Wind Speed: 10 km/h</p>
-          <p>Visibility: 10 km</p>
-        </div>
+        <h3>Warsaw</h3>
+        <p>Temperature: 25°C</p>
+        <p>Humidity: 70%</p>
+        <p>Wind Speed: 10 km/h</p>
+        <p>Visibility: 10 km</p>
       </section>
     </main>
-
-    <style>
-      body {
-        display: flex;
-        flex-direction: column;
-        min-height: 100vh;
-      }
-
-      main {
-        flex: 1;
-      }
-    </style>
     <footer>
       <p id="copy">&copy; 2024, Franek Sz</p>
     </footer>
